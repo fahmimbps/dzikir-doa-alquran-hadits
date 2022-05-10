@@ -1,0 +1,21 @@
+{
+  "name": "doa-dan-dzikir-sesuai-al-quran-dan-hadits",
+  "version": "1.0.0",
+  "private": true,
+  "description": "doa-dan-dzikir-sesuai-al-quran-dan-hadits",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
