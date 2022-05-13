@@ -3,5 +3,8 @@ module.exports = {
     title: `Doa dan Dzikir Sesuai Al-Quran dan Hadits`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
