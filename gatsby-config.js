@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Doa dan Dzikir Sesuai Al-Quran dan Hadits`,
+    title: `My First Gatsby Site`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [

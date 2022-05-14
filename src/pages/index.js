@@ -1,23 +1,11 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { Link } from "gatsby"
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
-      {
-        data.allMdx.nodes.map(node => (
-          <article key={node.id}>
-            <h2>
-              <Link to={`/blog/${node.slug}`}>
-                {node.frontmatter.title}
-              </Link>
-            </h2>
-            <p>Posted: {node.frontmatter.date}</p>
-          </article>
-        ))
-      }
+    <Layout pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
     </Layout>
   )
 }
